@@ -109,7 +109,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 - Look under Ports (COM & LPT). You should find an open port named "Seeeduino Lotus". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
 - Right click on the "Seeeduino Lotus" port and choose the "Update Driver Software" option.
 - Next, choose the "Browse my computer for Driver software" option.
-- Finally, navigate to and select the driver file named "Seeeduino Lotus.inf"
+- Finally, navigate to and select the driver file named "seeed_usb_serial.inf"
 - Windows will finish up the driver installation from there.
 
 ###For Mac OSX
