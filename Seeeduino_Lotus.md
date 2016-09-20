@@ -8,9 +8,9 @@ surveyurl: https://www.surveymonkey.com/r/Seeeduino_Lotus
 sku: 102020001
 ---
 
-![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/Seeeduino_Lotus_Cover.jpg?raw=true)
+![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/Seeeduino_Lotus_Cover.jpg?raw=true)
 
-Seeeduino Lotus is an ATMEGA328 Micro-controller development board. It is a combination of Seeeduino and Base Shield. It uses an Atmel ATMEGA328P-MU and CH340. ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. CH340 is a USB bus converter chip that can realize a USB to serial interface. Seeeduino Lotus has 14 digital input/outputs (6 of which can output PWM) and 7 analog input/outputs, a micro USB connection, an ICSP header, 12 Grove connections, a reset button.
+Seeeduino Lotus is an ATMEGA328 Microcontroller development board. It is a combination of Seeeduino and Base Shield. It uses an Atmel ATMEGA328P-MU and CH340. ATMEGA328P-MU is a high performance, low power AVR 8-Bit Microcontroller. CH340 is a USB bus converter chip that can realize a USB to serial interface. Seeeduino Lotus has 14 digital input/outputs (6 of which can output PWM) and 7 analog input/outputs, a micro USB connection, an ICSP header, 12 Grove connections, a reset button.
  
 
 ##Application Ideas
@@ -25,7 +25,7 @@ Here is some funny project for your reference.
 
 |Car Controlled by Track Ball|FM Receiver|HCHO Detector|
 |-------|-------|-------|
-|![](http://statics3.seeedstudio.com/images/recipe/img/recipe/2016-01/56a4cdeb5a05d.png)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/Fm%20demo.jpg?raw=true)|![](http://statics3.seeedstudio.com/images/recipe/img/recipe/2015-09/55ee8da543f83.png)|
+|![](http://statics3.seeedstudio.com/images/recipe/images/recipe/2016-01/56a4cdeb5a05d.png)|![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/Fm%20demo.jpg?raw=true)|![](http://statics3.seeedstudio.com/images/recipe/img/recipe/2015-09/55ee8da543f83.png)|
 |[Make it Now](http://www.seeed.cc/A-Car-Controlled-by-Track-Ball-p-1132.html)|[Make it Now](http://wiki.seeedstudio.com/wiki/Seeeduino_Lotus_v1.0#Usage)|[Make it Now](http://www.seeed.cc/A-Handheld-Formaldehyde(HCHO)-Detector-p-380.html)|
 
 
@@ -62,7 +62,7 @@ Here is some funny project for your reference.
 
 The images below show an overview of Seeeduino Lotus hardware features. The pin-out and alternate functions of various pins of Seeeduino Lotus are shown in the pin-out diagram. This could be used as a quick reference.
 
-![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/seeeduino_lotus_hardware_overview.jpg?raw=true) 
+![](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/seeeduino_lotus_hardware_overview.jpg?raw=true) 
 
  
 - **LED-D13**
@@ -102,7 +102,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 !!!Note
     This drive is available for Windows XP, Windows Vista, Windows 7, Windows 8/8.1 and Windows 10.
     
-[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/download_driver_for_seeeduino_lotus.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
+[![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/download_driver_for_seeeduino_lotus.png?raw=true)](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver/archive/master.zip)
 
 - Plug in your board and wait for Windows to begin its driver installation process. After a few moments, the process will fail, despite best efforts.
 - Click on the Start Menu, and open up the Control Panel.
@@ -110,7 +110,7 @@ If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/M
 - Look under Ports (COM & LPT). You should find an open port named "Seeeduino Lotus". If there is no COM & LPT section, look under "Other Devices" for "Unknown Device".
 - Right click on the "Seeeduino Lotus" port and choose the "Update Driver Software" option.
 - Next, choose the "Browse my computer for Driver software" option.
-- Finally, navigate to and select the driver file named "seeed_usb_serial.inf"
+- Finally, navigate to and select the driver file named "Seeeduino Lotus.inf"
 - Windows will finish up the driver installation from there.
 
 ###For Mac OSX
@@ -125,7 +125,7 @@ You don't need to install any drivers.
     
 First of all, you need to Install an Arduino Software.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/img/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
 
 ###Launch the Arduino application
@@ -148,18 +148,18 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/add_board.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/add_board.png)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
 Selecting a **Seeeduino Lotus**.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/select_seeeduino_lotus.jpg?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/select_seeeduino_lotus.jpg?raw=true)
 
 ###Select your serial port
 Select the serial device of the Arduino board from the Tools | Serial Port menu. This is likely to be COM3 or higher (**COM1** and **COM2** are usually reserved for hardware serial ports). To find out, you can disconnect your Arduino board and re-open the menu; the entry that disappears should be the Arduino board. Reconnect the board and select that serial port.
 
-![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/images/select_com.jpg?raw=true)
+![enter image description here](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/img/select_com.jpg?raw=true)
 
 !!!Note
     On the Mac, this should be something with **/dev/tty.USBmodem**.
@@ -167,7 +167,7 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 ###Upload the program
 Now, simply click the "Upload" button in the environment. Wait a few seconds and if the upload is successful, the message "Done uploading." will appear in the status bar.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/images/upload_button.png)
+![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/upload_button.png)
 
 A few seconds after the upload finishes, you should see the pin 13 (L) LED on the board start to blink (in orange). If it does, congratulations! You've gotten Arduino up-and-running. If you have problems, please see the troubleshooting suggestions.
 
@@ -178,15 +178,15 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 ##Resources
 
 * **Schematic**
-    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/resources/Seeeduino_Lotus_v1.0_Sch.zip)
-    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/resources/Seeeduino_Lotus_v1.0_pdf.pdf)
+    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
+    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
 
 * **Datasheet**
-    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega328.pdf)
-    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/ATmega16u2.pdf)
+    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
+    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
 
 * **Bootloader**    
-    * [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/resources/Seeeduino_lotus_bootloader.zip)
+    * [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
 
 * **References**
     * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
@@ -213,3 +213,4 @@ Please check,
 ####Q3. Where can I find technical support if I have some other issue. 
 
 You can post a question to [Seeed Forum](http://www.seeed.cc/discover.html?t=Arduino) or send an email to **techsupport@seeed.cc**.
+
