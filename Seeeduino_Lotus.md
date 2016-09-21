@@ -196,10 +196,15 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 * **References**
 
     [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    
     [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    
     [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    
     [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    
     [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    
     [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
 
 ##FAQ
