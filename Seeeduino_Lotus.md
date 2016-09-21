@@ -148,7 +148,7 @@ Click on **File > Preference**, and fill Additional Boards Manager URLs with bel
 
 Click OK to finish the setting. Then Click on **Tools > Board > Boards Manager**, find **Seeeduino by Seeed Studio**, and Install it.
 
-![enter image description here](https://raw.githubusercontent.com/SeeedDocument/SeeeduinoV4/master/img/add_board.png)
+![enter image description here](https://github.com/SeeedDocument/SeeeduinoV4/blob/master/images/add_board.png?raw=true)
 
 ###Select your board
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
@@ -179,28 +179,28 @@ For using on Linux, please go to [Installing Arduino on Linux](http://playground
 
 * **Schematic**
 
-    * [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
+    [Seeeduino Lotus Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_Sch.zip)
     
-    * [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
+    [Seeeduino Lotus PDF file](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_lotus_bootloader.zip)
 
 * **Datasheet**
 
-    * [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
+    [ATmega328P](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega328.pdf)
     
-    * [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
+    [ATmega16U2](https://github.com/SeeedDocument/SeeeduinoV4/raw/master/res/ATmega16u2.pdf)
 
 * **Bootloader**    
 
-    * [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
+    [Seeeduino Lotus Bootloader](https://github.com/SeeedDocument/Seeeduino_Lotus/blob/master/res/Seeeduino_Lotus_v1.0_pdf.pdf)
 
 * **References**
 
-    * [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
-    * [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
-    * [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
-    * [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
-    * [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
-    * [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
+    [Getting Started with Arduino](https://www.arduino.cc/en/Guide/HomePage)
+    [Arduino Language Reference](https://www.arduino.cc/en/Reference/HomePage)
+    [Download the Arduino Software(IDE)](https://www.arduino.cc/en/Main/Software)
+    [Arduino FAQ](https://www.arduino.cc/en/Main/FAQ)
+    [Arduino Introduction](https://www.arduino.cc/en/guide/introduction)
+    [Wikipedia page for Arduino](https://en.wikipedia.org/wiki/Arduino)
 
 ##FAQ
 
